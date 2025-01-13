@@ -1,0 +1,122 @@
+/*--------------------------------------------------------------
+## Team
+--------------------------------------------------------------*/
+.xp-team {
+  text-align: center;
+  overflow: hidden;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: 8px 8px 30px 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 8px 8px 30px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 8px 8px 30px 0 rgba(0, 0, 0, 0.12);
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+}
+.xp-team .team-info {
+  background: #fff;
+  padding: 28px 30px;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+}
+.xp-team .team-info h6 {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.xp-team .team-info span {
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #C19977;
+}
+.xp-team .team-thumb {
+  position: relative;
+}
+.xp-team h6 a:hover {
+  color: #1a1b1e;
+}
+.fab {
+  font-family: "fontawesome";
+  font-style: normal;
+}
+
+/* team carousel */
+.xp-team-carousel .xp-team {
+  box-shadow: none;
+}
+
+/* our-team & single team */
+.team-form {
+  justify-content: space-between;
+}
+.team-form h4 {
+  margin-bottom: 0;
+  color: #fff;
+}
+.team-form > span.wpcf7-form-control-wrap {
+  margin-right: 20px;
+}
+.team-form input[type=text],
+.team-form input[type=email] {
+  max-width: 290px;
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.6);
+  color: #fff;
+}
+.team-form ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #1a1b1e;
+}
+.team-form .xptf-btn {
+  background: #fff;
+  color: #0b2a41;
+}
+.team-form .xptf-btn:hover {
+  background: #0b2a41;
+  color: #fff;
+}
+
+.member-info {
+  list-style: none;
+  font-size: 16px;
+  padding-left: 0;
+}
+.member-info li {
+  padding-bottom: 15px;
+}
+.member-info li span {
+  color: #1a1b1e;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 1024px) {
+  .team-form {
+    display: block;
+  }
+  .team-form h4 {
+    margin-bottom: 20px;
+  }
+  .team-form > div {
+    display: block;
+  }
+  .team-form input[type=text],
+.team-form input[type=email] {
+    margin-bottom: 20px;
+  }
+  .team-form .xptf-btn {
+    display: block;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .team-form input[type=text],
+.team-form input[type=email] {
+    max-width: 100%;
+  }
+}
